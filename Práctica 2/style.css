@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --blue-button: #3858d6;
+    --blue-title: #3656d4;
+    --blue-heavy: #1f3e72;
+    --button-name: #fbfbfd;
+    --letter: #6e737c;
+    --sm: 16px;
+    --md: 18px;
+    --lg: 20px;
+    --xl: 60px;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px;
+    color: var(--letter);
+    text-align: justify;
+}
+nav {
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+.logo {
+    padding: 0 25px;
+    width: 230px;
+    height: 50px;
+}
+nav ul {
+    font-size: var(--sm);
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+
+}
+nav ul li a{
+    font-weight: bold;
+    color: var(--letter);
+    text-decoration: none;
+}
+.nav button {
+    width: 120px;
+    height: 40px;
+    color: var(--button-name);
+    font-size: var(--md);
+    background-color: var(--blue-button);
+    border: 0;
+    border-radius: 5px;
+    margin: 0 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+.container section h1 {
+    color: var(--blue-heavy);
+    font-size: var(--xl);
+    font-weight: 900;
+    text-align: left;
+}
+.firtssection {
+    width: 500px;
+    align-items: stretch;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon_intro {
+    height: 30px;
+    width: 30px;
+}
+.iconcertification {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+section p {
+    font-size: var(--md);
+    width: 380px;
+}
+.iconcertification p {
+    margin: 0 10px 0 0;
+}
+.person1{
+    height: 750px;
+    width: 950px;
+    object-fit: contain;
+}
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+}
+.sponsors img {
+    object-fit: cover;
+}
+.why {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}

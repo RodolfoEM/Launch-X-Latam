@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Layout y Rutas</title>
+</head>
+<body>
+    <header>
+        <h1>Taco-T, calmando tu hambre desde 1996.</h1>
+    </header>
+    
+    <img src="/Taco-T.jpg" alt="Logo Taco-T">
+
+    <hr>
+
+    <h1>Menú</h1>
+    <h2>Tacos Grandes</h2>
+    <ul>
+        <li>Bisteck .............. $30</li>
+        <li>Longaniza ............ $30</li>
+        <li>Chuleta .............. $30</li>
+        <li>Arrachera ............ $30</li>
+        <li>Sesina ............... $30</li>
+    </ul>
+
+    <h2>Tacos pa´ la dieta</h2>
+    <ul>
+        <li>Bisteck sin grasa .............. $25</li>
+        <li>Longaniza sin grasa .............. $25</li>
+        <li>Chuleta sin grasa .............. $2530</li>
+        <li>Arrachera sin grasa .............. $25</li>
+        <li>Sesina sin grasa .............. $25</li>
+    </ul>
+
+    <h2>Especiales</h2>
+    <p>Haz tu combo con refresco por $10 más</p>
+    <dt>
+        <dl><b>Pa´l hambre </b>....................... $40</dl>
+        <db>- Taco en tortilla de harina con frijoles</db>
+        <dl><b>Pa´ llevar</b> ....................... $40</dl>
+        <db>- Taco en tortilla normal, con todo para llevar</db>
+        <dl><b>Pa´ compartir</b> ....................... $130</dl>
+        <dl>- 10 tacos con tortilla normal, papas y frijoles</dl>
+    </dt>
+
+    <hr>
+
+    <h1>Ubicación</h1>
+    <h2>Sucursales</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horario</th>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/5sZiujdLV2Lhyy8N8">Melchor ocampo San cristobal ecatepec.</a></td>
+            <td>Todos los días de 5 pm a 3 am.</td>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://g.page/unitec-ecatepec?share">Av. Gobernadora 375, Industrias Tulpetlac.</a></td>
+            <td>Todos los días de 5 pm a 3 am.</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/pX8iwg4gQ8S2mzVHA">Vía Morelos 230, Sta Maria Tulpetlac.</a></td>
+            <td>Todos los días de 5 pm a 3 am.</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Haz tu pedido aquí</h1>
+
+    <form action="">
+        <label for="">Elige tu sucursal:</label>
+        <br>
+        <select name="sucursales" id="sucursales">
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+        
+        <br><br>
+
+        <label for="">Escoge tú pedido</label>
+        
+        <br>
+        <input type="checkbox" name="bisteck" id="bisteck">
+        <label for="bisteck">Bisteck</label>
+        <input type="number" placeholder="¿Cantidad?">
+        <br>
+
+        <input type="checkbox" name="chorizo" id="chorizo">
+        <label for="chorizo">Chorizo</label>
+        <input type="number" placeholder="¿Cantidad?">
+        <br>
+        
+        <input type="checkbox" name="pastor" id="pastor">
+        <label for="pastor">Pastor</label>
+        <input type="number" placeholder="¿Cantidad?">
+        <br>
+
+        <input type="checkbox" name="Chuleta" id="Chuleta">
+        <label for="chuleta">Chuleta</label>
+        <input type="number" placeholder="¿Cantidad?">
+        
+        <br><br>
+
+        <label for="nombre">Nombre</label>
+        <br>
+        <input type="text" id="nombre" placeholder="Tú nombre">
+        <br>
+        <label for="telefono">Teléfono</label>
+        <br>
+        <input type="tel" id="telefono" placeholder="Tú Teléfono">
+        <br>
+        <label for="nombre">Nombre</label>
+        <br>
+        <input type="text" id="direccion" placeholder="Tú Dirección">
+        <br>
+        <input type="submit">
+        
+        
+    </form>
+</body>
+</html>
